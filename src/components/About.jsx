@@ -33,14 +33,13 @@ export default function About() {
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.4 }}
       >
-        <a 
-          href="Somya Raj Resume_compressed.pdf "  // <-- replace with your PDF
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all"
-        >
-          Download Resume
-        </a>
+       <a 
+  href="/resume.pdf"
+  download="Somya_Raj_Resume.pdf"
+  className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all"
+>
+  Download Resume
+</a>
       </motion.div>
 
       {/* Resume content displayed on page */}
