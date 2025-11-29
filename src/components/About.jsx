@@ -34,7 +34,7 @@ export default function About() {
         transition={{ duration: 0.8, delay: 0.4 }}
       >
        <a 
-  href="/resume.pdf"
+  href="/Somya_Raj_Resume_Clickable.pdf"
   download="Somya_Raj_Resume.pdf"
   className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all"
 >
